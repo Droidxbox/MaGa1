@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #000000;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background: #04a7e3;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Home Section */
+  .home-section {
+    background: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Projects Section */
+  .projects-section {
+    padding: 2rem 0;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .project-card {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Skills Section */
+  .skills-section {
+    background: #f4f4f4;
+    padding: 2rem 0;
+  }
+  
+  .skills-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-section ul li {
+    background: #fff;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    padding: 2rem 0;
+  }
+  
+  .contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact-section input,
+  .contact-section textarea {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact-section button {
+    align-self: flex-start;
+  }
+  
+  /* Footer */
+  footer {
+    background: #01ace0;
+    color: #fff;
+    text-align: justify;
+    padding: 1rem 0;
+  }
+
+  .button:hover {
+    background-color: #ff6f61;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+}
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
